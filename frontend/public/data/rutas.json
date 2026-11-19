@@ -1,0 +1,75 @@
+{
+ "rutas": [
+  {
+   "id": "ruta-piloto",
+   "nombre": "Ruta piloto",
+   "subtitulo": "Ramiriquí → Tibaná → Jenesano",
+   "descripcion": "Un día por tres municipios de Márquez: desayuno con arepa de laja, cocina campesina, la memoria muisca de Tibaná, café en la vereda Siramá, tejidos en fibras naturales y el atardecer desde un mirador.",
+   "duracion": "Un día",
+   "transporte": "En carro o moto",
+   "premio": {
+    "nombre": "Kit Ruta Márquez",
+    "incluye": [
+     "Productos de los emprendimientos aliados",
+     "10 % de descuento en tu próxima visita"
+    ],
+    "lugar_reclamo": "Punto de información de la alcaldía de Ramiriquí"
+   },
+   "paradas": [
+    {
+     "emprendimiento": 11,
+     "hora": "8:00 a. m.",
+     "actividad": "Desayuno con arepa de laja",
+     "minutos_a_siguiente": 15,
+     "numero": 1,
+     "huellaCodigo": "27fea30da787d5d6bb0153333400a230caee4c8d1d131c270c45568c9d02f04c"
+    },
+    {
+     "emprendimiento": 29,
+     "hora": "9:30 a. m.",
+     "actividad": "Taller de amasijos y bebidas tradicionales",
+     "minutos_a_siguiente": 40,
+     "numero": 2,
+     "huellaCodigo": "c078b683347027b9e8645c19a34f5d1489ce21c4dfa924c54342a254f5b84d8c"
+    },
+    {
+     "emprendimiento": 12,
+     "hora": "11:30 a. m.",
+     "actividad": "Recorrido cultural y almuerzo boyacense",
+     "minutos_a_siguiente": 20,
+     "numero": 3,
+     "huellaCodigo": "c70711ae3d3b44d3d1a14a0033a98ae58b4a22ef0bfdae7804506be2cfe28010"
+    },
+    {
+     "emprendimiento": 27,
+     "hora": "2:00 p. m.",
+     "actividad": "Postres y café (bajo reserva)",
+     "minutos_a_siguiente": 30,
+     "numero": 4,
+     "huellaCodigo": "13e3f1c86171772efea3269de6de48113acb38bd28a96347df53b6ca9327393d"
+    },
+    {
+     "emprendimiento": 14,
+     "hora": "3:30 p. m.",
+     "actividad": "Taller de tejeduría y cestería",
+     "minutos_a_siguiente": 15,
+     "numero": 5,
+     "huellaCodigo": "b8ca1fe35ca78a0ebfd00e2e3ca69b29c1b0e1d29742a017b91a0b2a5f34d0c3"
+    },
+    {
+     "emprendimiento": 6,
+     "hora": "5:00 p. m.",
+     "actividad": "Atardecer en el mirador",
+     "minutos_a_siguiente": null,
+     "numero": 6,
+     "huellaCodigo": "d3136f99dd92757116564e78e9abe5eb17631d7f6e09385da41ba39fbdc5383d"
+    }
+   ],
+   "municipios": [
+    "Ramiriquí",
+    "Tibaná",
+    "Jenesano"
+   ]
+  }
+ ]
+}

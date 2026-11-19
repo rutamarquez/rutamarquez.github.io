@@ -1,0 +1,79 @@
+# Publica la app en GitHub Pages cada vez que se sube un cambio a la rama main.
+#
+# Antes de usarlo (una sola vez), en el repositorio de GitHub:
+#   1. Settings > Pages > Source: "GitHub Actions".
+#   2. Settings > Secrets and variables > Actions > New repository secret:
+#        CODIGOS_SELLOS   con el contenido completo de datos/privado/codigos_sellos.csv
+#   3. (Opcional, para las reseñas) en la pestaña "Variables":
+#        VITE_FIREBASE_API_KEY, VITE_FIREBASE_AUTH_DOMAIN,
+#        VITE_FIREBASE_PROJECT_ID, VITE_FIREBASE_APP_ID
+name: Publicar Ruta Márquez
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Instalar dependencias de Python
+        run: pip install -r requirements.txt
+
+      - name: Generar datos, diagnóstico e itinerario PDF
+        env:
+          CODIGOS_SELLOS: ${{ secrets.CODIGOS_SELLOS }}
+        run: |
+          if [ -z "$CODIGOS_SELLOS" ]; then
+            echo "::error::Falta el secreto CODIGOS_SELLOS (ver comentario al inicio de este archivo)."
+            exit 1
+          fi
+          mkdir -p datos/privado
+          printf '%s\n' "$CODIGOS_SELLOS" > datos/privado/codigos_sellos.csv
+          python scripts/generar_datos.py
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Construir la app
+        working-directory: frontend
+        env:
+          VITE_FIREBASE_API_KEY: ${{ vars.VITE_FIREBASE_API_KEY }}
+          VITE_FIREBASE_AUTH_DOMAIN: ${{ vars.VITE_FIREBASE_AUTH_DOMAIN }}
+          VITE_FIREBASE_PROJECT_ID: ${{ vars.VITE_FIREBASE_PROJECT_ID }}
+          VITE_FIREBASE_APP_ID: ${{ vars.VITE_FIREBASE_APP_ID }}
+        run: |
+          npm install
+          npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4

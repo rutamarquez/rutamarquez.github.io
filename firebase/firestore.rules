@@ -1,0 +1,33 @@
+rules_version = '2';
+
+// Reglas de seguridad de las reseñas de Ruta Márquez.
+// Copie este archivo en: Consola de Firebase > Firestore Database > Reglas > Publicar.
+//
+// - Cualquiera puede LEER las reseñas visibles.
+// - Cualquiera puede CREAR una reseña, solo con los campos esperados y valores válidos.
+// - Nadie puede EDITAR ni BORRAR desde la app. Para ocultar una reseña inapropiada, la
+//   alcaldía cambia el campo "visible" a false desde la consola de Firebase.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /resenas/{resenaId} {
+      allow read: if resource.data.visible == true;
+
+      allow create: if request.resource.data.keys().hasOnly(
+                         ['emprendimientoId', 'calificacion', 'etiquetas', 'texto', 'autor', 'visible', 'creado'])
+                    && request.resource.data.emprendimientoId is int
+                    && request.resource.data.calificacion is int
+                    && request.resource.data.calificacion >= 1
+                    && request.resource.data.calificacion <= 5
+                    && request.resource.data.etiquetas is list
+                    && request.resource.data.etiquetas.size() <= 5
+                    && request.resource.data.texto is string
+                    && request.resource.data.texto.size() <= 500
+                    && request.resource.data.autor is string
+                    && request.resource.data.autor.size() <= 60
+                    && request.resource.data.visible == true
+                    && request.resource.data.creado == request.time;
+
+      allow update, delete: if false;
+    }
+  }
+}

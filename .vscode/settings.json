@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "files.encoding": "utf8",
+  "[python]": { "editor.defaultFormatter": "ms-python.python" },
+  "[javascript][javascriptreact][css][json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.printWidth": 110,
+  "files.exclude": { "**/__pycache__": true }
+}

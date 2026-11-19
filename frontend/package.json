@@ -1,0 +1,22 @@
+{
+  "name": "ruta-marquez",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Ruta Márquez: directorio y ruta turística de emprendimientos de la Provincia de Márquez, Boyacá",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "firebase": "^11.0.0",
+    "leaflet": "^1.9.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.0.0"
+  }
+}

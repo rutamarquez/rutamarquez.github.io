@@ -1,0 +1,18 @@
+{
+  "_nota": "Resultados de la prueba en campo. Mientras 'disponible' sea false, la app muestra 'Pendiente'. Llenar después de las jornadas de campo.",
+  "disponible": false,
+  "fecha": null,
+  "tareas_guiadas": {
+    "participantes": null,
+    "tareas": [
+      {"tarea": "Encontrar un hospedaje de la ruta", "completaron": null},
+      {"tarea": "Abrir la ruta hacia un restaurante", "completaron": null},
+      {"tarea": "Interpretar la vista de resultados", "completaron": null}
+    ]
+  },
+  "encuesta_emprendedores": {
+    "participantes": null,
+    "informacion_clara_pct": null,
+    "util_para_atraer_visitantes_pct": null
+  }
+}

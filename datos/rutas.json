@@ -1,0 +1,26 @@
+{
+  "_nota": "Rutas turísticas. Cada parada referencia un emprendimiento por su 'id' en emprendimientos.csv. Los minutos de trayecto son estimados (pendiente confirmar en campo). Los códigos de los sellos NO van aquí: están en datos/privado/codigos_sellos.csv.",
+  "rutas": [
+    {
+      "id": "ruta-piloto",
+      "nombre": "Ruta piloto",
+      "subtitulo": "Ramiriquí → Tibaná → Jenesano",
+      "descripcion": "Un día por tres municipios de Márquez: desayuno con arepa de laja, cocina campesina, la memoria muisca de Tibaná, café en la vereda Siramá, tejidos en fibras naturales y el atardecer desde un mirador.",
+      "duracion": "Un día",
+      "transporte": "En carro o moto",
+      "premio": {
+        "nombre": "Kit Ruta Márquez",
+        "incluye": ["Productos de los emprendimientos aliados", "10 % de descuento en tu próxima visita"],
+        "lugar_reclamo": "Punto de información de la alcaldía de Ramiriquí"
+      },
+      "paradas": [
+        {"emprendimiento": 11, "hora": "8:00 a. m.", "actividad": "Desayuno con arepa de laja", "minutos_a_siguiente": 15},
+        {"emprendimiento": 29, "hora": "9:30 a. m.", "actividad": "Taller de amasijos y bebidas tradicionales", "minutos_a_siguiente": 40},
+        {"emprendimiento": 12, "hora": "11:30 a. m.", "actividad": "Recorrido cultural y almuerzo boyacense", "minutos_a_siguiente": 20},
+        {"emprendimiento": 27, "hora": "2:00 p. m.", "actividad": "Postres y café (bajo reserva)", "minutos_a_siguiente": 30},
+        {"emprendimiento": 14, "hora": "3:30 p. m.", "actividad": "Taller de tejeduría y cestería", "minutos_a_siguiente": 15},
+        {"emprendimiento": 6, "hora": "5:00 p. m.", "actividad": "Atardecer en el mirador", "minutos_a_siguiente": null}
+      ]
+    }
+  ]
+}

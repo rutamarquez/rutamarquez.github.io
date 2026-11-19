@@ -1,0 +1,8 @@
+# Fin de línea igual en Windows y en GitHub
+* text=auto eol=lf
+
+# Archivos binarios: Git no debe modificarlos
+*.pdf binary
+*.png binary
+*.jpg binary
+*.xlsx binary

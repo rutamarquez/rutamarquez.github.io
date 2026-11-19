@@ -1,0 +1,881 @@
+[
+ {
+  "id": 1,
+  "nombre": "Viajes y Travesías MC",
+  "municipio": "Tibaná",
+  "vereda": "Supaneca",
+  "provinciaMarquez": true,
+  "categorias": [
+   "Comer",
+   "Dormir",
+   "Agroturismo",
+   "Senderos",
+   "Cultura",
+   "Productos locales"
+  ],
+  "descripcion": "Experiencias de turismo rural con amasijos, comida típica y caminatas.",
+  "queHacer": [
+   "Comer",
+   "Hospedarse",
+   "Conocer procesos campesinos",
+   "Hacer senderismo",
+   "Conocer naturaleza",
+   "Conocer cultura local",
+   "Comprar productos locales",
+   "Realizar actividades de aventura",
+   "Conocer tradiciones"
+  ],
+  "duracion": "2–4 horas",
+  "acceso": "Solo con cita previa",
+  "horario": null,
+  "whatsapp": "3203411888",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/search/?api=1&query=Viajes%20y%20Traves%C3%ADas%20MC%2C%20vereda%20Supaneca%2C%20Tiban%C3%A1%2C%20Boyac%C3%A1",
+  "ubicacion": {
+   "lat": 5.316,
+   "lon": -73.3916,
+   "aproximada": true
+  }
+ },
+ {
+  "id": 2,
+  "nombre": "Marú, Casa Artesanal",
+  "municipio": "Nuevo Colón",
+  "vereda": "Pavaquira",
+  "provinciaMarquez": true,
+  "categorias": [
+   "Comer",
+   "Productos locales"
+  ],
+  "descripcion": "Panadería artesanal con recordatorios y obleas con fruta.",
+  "queHacer": [
+   "Comer",
+   "Comprar productos locales"
+  ],
+  "duracion": "Menos de 1 hora",
+  "acceso": "Abierto a visitantes",
+  "horario": null,
+  "whatsapp": "3132631964",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/search/?api=1&query=Mar%C3%BA%2C%20Casa%20Artesanal%2C%20vereda%20Pavaquira%2C%20Nuevo%20Col%C3%B3n%2C%20Boyac%C3%A1",
+  "ubicacion": {
+   "lat": 5.3589,
+   "lon": -73.4543,
+   "aproximada": true
+  }
+ },
+ {
+  "id": 3,
+  "nombre": "Stella Artesanías",
+  "municipio": "Tibaná",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Productos locales"
+  ],
+  "descripcion": "Recordatorios hechos a mano en el casco urbano de Tibaná.",
+  "queHacer": [
+   "Comprar productos locales"
+  ],
+  "duracion": "Menos de 1 hora",
+  "acceso": "Abierto a visitantes",
+  "horario": null,
+  "whatsapp": "3115915136",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.318444,-73.396389",
+  "ubicacion": {
+   "lat": 5.318444,
+   "lon": -73.396389,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 4,
+  "nombre": "Sendero a La Burrera",
+  "municipio": "Tibaná",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Senderos",
+   "Cultura"
+  ],
+  "descripcion": "Caminata guiada de nivel intermedio con una vista muy bonita, plantas y aves. Según la época se llega a una cascada; si no, se organiza un taller de pintura o un círculo de palabra.",
+  "queHacer": [
+   "Hacer senderismo",
+   "Conocer naturaleza",
+   "Conocer cultura local",
+   "Participar en talleres",
+   "Conocer tradiciones"
+  ],
+  "duracion": "1–2 horas",
+  "acceso": "Según la temporada",
+  "horario": null,
+  "whatsapp": "3007154889",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/search/?api=1&query=Sendero%20a%20La%20Burrera%2C%20Tiban%C3%A1%2C%20Boyac%C3%A1",
+  "ubicacion": {
+   "lat": 5.3172,
+   "lon": -73.3988,
+   "aproximada": true
+  }
+ },
+ {
+  "id": 5,
+  "nombre": "Lenguparque: Agroturismo y Bienestar",
+  "municipio": "San Eduardo",
+  "vereda": null,
+  "provinciaMarquez": false,
+  "categorias": [
+   "Comer",
+   "Dormir",
+   "Agroturismo",
+   "Senderos",
+   "Cultura"
+  ],
+  "descripcion": "Agroturismo y bienestar con alojamiento, comida, productos del campo y actividades de relajación.",
+  "queHacer": [
+   "Hospedarse",
+   "Comer",
+   "Conocer procesos campesinos",
+   "Conocer naturaleza",
+   "Participar en talleres",
+   "Actividades de relajación y reflexión"
+  ],
+  "duracion": "Más de un día",
+  "acceso": "Abierto a visitantes",
+  "horario": null,
+  "whatsapp": "3132363339",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.224244,-73.077485",
+  "ubicacion": {
+   "lat": 5.224244,
+   "lon": -73.077485,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 6,
+  "nombre": "El Mirador de la Cima",
+  "municipio": "Jenesano",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Comer",
+   "Dormir",
+   "Senderos",
+   "Cultura"
+  ],
+  "descripcion": "Mirador rural con comida y alojamiento rural en preparación.",
+  "queHacer": [
+   "Comer",
+   "Hospedarse",
+   "Conocer naturaleza",
+   "Conocer tradiciones"
+  ],
+  "duracion": "Medio día",
+  "acceso": "Requiere orientación para llegar",
+  "horario": null,
+  "whatsapp": "3105588985",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://maps.app.goo.gl/zNug43fVKdvUKhks7",
+  "ubicacion": {
+   "lat": 5.382,
+   "lon": -73.3576,
+   "aproximada": true
+  }
+ },
+ {
+  "id": 7,
+  "nombre": "Rastro de Niebla",
+  "municipio": "Úmbita",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Comer",
+   "Dormir",
+   "Agroturismo",
+   "Senderos",
+   "Cultura",
+   "Productos locales"
+  ],
+  "descripcion": "Alojamiento rural y cocina campesina, con talleres junto a artesanas y caminatas al cerro El Castillejo, el Parque Natural Municipal Guanachas y la laguna de Agua Blanca.",
+  "queHacer": [
+   "Comer",
+   "Hospedarse",
+   "Conocer procesos campesinos",
+   "Hacer senderismo",
+   "Conocer naturaleza",
+   "Conocer cultura local",
+   "Comprar productos locales",
+   "Participar en talleres",
+   "Conocer tradiciones"
+  ],
+  "duracion": "Día completo",
+  "acceso": "Requiere orientación para llegar",
+  "horario": null,
+  "whatsapp": "3228818032",
+  "redes": {
+   "instagram": "https://www.instagram.com/rastrodeniebla",
+   "facebook": "https://www.facebook.com/share/1DoEYt8Rps/"
+  },
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.21763,-73.50635",
+  "ubicacion": {
+   "lat": 5.21763,
+   "lon": -73.50635,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 8,
+  "nombre": "Anali Viajes",
+  "municipio": "Úmbita",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Comer",
+   "Dormir",
+   "Agroturismo",
+   "Senderos",
+   "Cultura",
+   "Productos locales"
+  ],
+  "descripcion": "Pasadías desde Bogotá con transporte, alimentación y guía local: caminata al cerro El Castillejo, taller de amasijos y experiencia de papa nativa.",
+  "queHacer": [
+   "Comer",
+   "Conocer procesos campesinos",
+   "Hacer senderismo",
+   "Conocer naturaleza",
+   "Conocer cultura local",
+   "Comprar productos locales",
+   "Participar en talleres",
+   "Conocer tradiciones",
+   "Hospedarse"
+  ],
+  "duracion": "Día completo",
+  "acceso": "Requiere orientación para llegar",
+  "horario": null,
+  "whatsapp": "3224427592",
+  "redes": {
+   "instagram": "https://www.instagram.com/anali_viajes",
+   "facebook": "https://www.facebook.com/share/1796ypXfEo/",
+   "tiktok": "https://www.tiktok.com/@anali_viajes"
+  },
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/search/?api=1&query=Anali%20Viajes%2C%20%C3%9Ambita%2C%20Boyac%C3%A1",
+  "ubicacion": {
+   "lat": 5.2268,
+   "lon": -73.4555,
+   "aproximada": true
+  }
+ },
+ {
+  "id": 9,
+  "nombre": "Casa Hospedaje Rural El Cerezo",
+  "municipio": "Ramiriquí",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Comer",
+   "Dormir"
+  ],
+  "descripcion": "Hospedaje rural con alimentación.",
+  "queHacer": [
+   "Comer",
+   "Hospedarse"
+  ],
+  "duracion": "Día completo",
+  "acceso": "Requiere orientación para llegar",
+  "horario": null,
+  "whatsapp": "3005590740",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/search/?api=1&query=Casa%20Hospedaje%20Rural%20El%20Cerezo%2C%20Ramiriqu%C3%AD%2C%20Boyac%C3%A1",
+  "ubicacion": {
+   "lat": 5.3987,
+   "lon": -73.3364,
+   "aproximada": true
+  }
+ },
+ {
+  "id": 10,
+  "nombre": "Sendero de la Miel - Encuentro de Dos Mundos",
+  "municipio": "Jenesano",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Comer",
+   "Dormir",
+   "Agroturismo",
+   "Senderos",
+   "Cultura",
+   "Productos locales"
+  ],
+  "descripcion": "Proyecto de turismo rural y agroturismo que se está construyendo.",
+  "queHacer": [
+   "Comer",
+   "Hospedarse",
+   "Conocer procesos campesinos",
+   "Hacer senderismo",
+   "Conocer naturaleza",
+   "Conocer cultura local",
+   "Comprar productos locales",
+   "Participar en talleres",
+   "Realizar actividades de aventura",
+   "Conocer tradiciones"
+  ],
+  "duracion": "Más de un día",
+  "acceso": "Solo con cita previa",
+  "horario": null,
+  "whatsapp": "3209122041",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.376659,-73.367033",
+  "ubicacion": {
+   "lat": 5.376659,
+   "lon": -73.367033,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 11,
+  "nombre": "Arepas Las Milagrosas",
+  "municipio": "Ramiriquí",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Comer",
+   "Agroturismo",
+   "Cultura"
+  ],
+  "descripcion": "Arepa artesanal hecha en laja. Se puede ver cómo se prepara y participar en talleres.",
+  "queHacer": [
+   "Comer",
+   "Conocer procesos campesinos",
+   "Conocer cultura local",
+   "Participar en talleres",
+   "Conocer tradiciones"
+  ],
+  "duracion": "2–4 horas",
+  "acceso": "Abierto a visitantes",
+  "horario": null,
+  "whatsapp": "3204148224",
+  "redes": {
+   "instagram": "https://www.instagram.com/arepaslasmilagrosas",
+   "facebook": "https://www.facebook.com/share/1gcYCcQ7FY/"
+  },
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.401121,-73.334219",
+  "ubicacion": {
+   "lat": 5.401121,
+   "lon": -73.334219,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 12,
+  "nombre": "Casa del Viejo Territorio Muisca",
+  "municipio": "Tibaná",
+  "vereda": "Ruche",
+  "provinciaMarquez": true,
+  "categorias": [
+   "Comer",
+   "Dormir",
+   "Agroturismo",
+   "Senderos",
+   "Cultura"
+  ],
+  "descripcion": "Hospedaje rural, cocina tradicional boyacense, recorrido cultural, el sendero del oso, talleres y artesanías.",
+  "queHacer": [
+   "Comer",
+   "Hospedarse",
+   "Conocer procesos campesinos",
+   "Hacer senderismo",
+   "Conocer cultura local",
+   "Conocer tradiciones",
+   "Participar en talleres"
+  ],
+  "duracion": "Más de un día",
+  "acceso": "Abierto a visitantes",
+  "horario": null,
+  "whatsapp": "3114488417",
+  "redes": {
+   "web": "https://linktr.ee/casadelviejoterritoriomuisca"
+  },
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.320213,-73.371302",
+  "ubicacion": {
+   "lat": 5.320213,
+   "lon": -73.371302,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 13,
+  "nombre": "Rancho Alegre Tibaná",
+  "municipio": "Tibaná",
+  "vereda": "Suta Abajo",
+  "provinciaMarquez": true,
+  "categorias": [
+   "Agroturismo",
+   "Productos locales"
+  ],
+  "descripcion": "Recorrido por cultivos de manzana, procesos de la finca y venta de la fruta cosechada.",
+  "queHacer": [
+   "Conocer procesos campesinos",
+   "Comprar productos locales"
+  ],
+  "duracion": "2–4 horas",
+  "acceso": "Abierto a visitantes",
+  "horario": null,
+  "whatsapp": "3219681690",
+  "redes": {
+   "instagram": "https://www.instagram.com/ranchoalegretibana",
+   "facebook": "https://www.facebook.com/share/1LV8CS7WgU/",
+   "tiktok": "https://www.tiktok.com/@ranchoalegretibana"
+  },
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.32511,-73.367376",
+  "ubicacion": {
+   "lat": 5.32511,
+   "lon": -73.367376,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 14,
+  "nombre": "Bague Tradición",
+  "municipio": "Jenesano",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Cultura",
+   "Productos locales"
+  ],
+  "descripcion": "Artesanías en fique, gaita, paja blanca, calceta de plátano, esparto y cuero, con talleres de tejeduría y cestería.",
+  "queHacer": [
+   "Conocer cultura local",
+   "Comprar productos locales",
+   "Participar en talleres",
+   "Conocer tradiciones"
+  ],
+  "duracion": "Medio día",
+  "acceso": "Abierto a visitantes",
+  "horario": null,
+  "whatsapp": "3135791804",
+  "redes": {
+   "instagram": "https://www.instagram.com/baguetradicion",
+   "facebook": "https://www.facebook.com/share/1CWQFu6DiX/",
+   "tiktok": "https://www.tiktok.com/@bague.tradicion"
+  },
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.387073,-73.362759",
+  "ubicacion": {
+   "lat": 5.387073,
+   "lon": -73.362759,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 15,
+  "nombre": "Cabañas Rurales La Posada",
+  "municipio": "Ramiriquí",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Dormir"
+  ],
+  "descripcion": "Cabañas para hospedaje rural, en preparación.",
+  "queHacer": [
+   "Hospedarse"
+  ],
+  "duracion": "Más de un día",
+  "acceso": "Solo con cita previa",
+  "horario": null,
+  "whatsapp": "3102037774",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.38811,-73.340709",
+  "ubicacion": {
+   "lat": 5.38811,
+   "lon": -73.340709,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 17,
+  "nombre": "Raíces Vivas de mi Tierra",
+  "municipio": "Nuevo Colón",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Agroturismo",
+   "Senderos",
+   "Cultura",
+   "Productos locales"
+  ],
+  "descripcion": "Experiencias culturales y caminatas ecológicas alrededor de las fiestas de Nuevo Colón, como el Reinado de la Flor, el Concurso de la Auyama y el Festival de las Frutas y la Ruana.",
+  "queHacer": [
+   "Conocer procesos campesinos",
+   "Hacer senderismo",
+   "Conocer naturaleza",
+   "Conocer cultura local",
+   "Comprar productos locales",
+   "Participar en talleres",
+   "Conocer tradiciones"
+  ],
+  "duracion": "Más de un día",
+  "acceso": "Proyecto en formación",
+  "horario": null,
+  "whatsapp": "3134134195",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/search/?api=1&query=Ra%C3%ADces%20Vivas%20de%20mi%20Tierra%2C%20Nuevo%20Col%C3%B3n%2C%20Boyac%C3%A1",
+  "ubicacion": null
+ },
+ {
+  "id": 18,
+  "nombre": "Saberes y Sabores de Pura Cepa",
+  "municipio": "Nuevo Colón",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Agroturismo",
+   "Cultura",
+   "Productos locales"
+  ],
+  "descripcion": "Talleres educativos sobre la cultura frutícola y pecuaria de la zona.",
+  "queHacer": [
+   "Conocer cultura local",
+   "Conocer procesos campesinos",
+   "Comprar productos locales",
+   "Participar en talleres",
+   "Conocer tradiciones"
+  ],
+  "duracion": "Día completo",
+  "acceso": "Requiere orientación para llegar",
+  "horario": null,
+  "whatsapp": "3125416559",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.3505,-73.449694",
+  "ubicacion": {
+   "lat": 5.3505,
+   "lon": -73.449694,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 19,
+  "nombre": "Caminos Andinos",
+  "municipio": "Ventaquemada",
+  "vereda": null,
+  "provinciaMarquez": false,
+  "categorias": [
+   "Senderos",
+   "Cultura"
+  ],
+  "descripcion": "Guianza y experiencias comunitarias en Ventaquemada, Turmequé, Ramiriquí y Nuevo Colón.",
+  "queHacer": [
+   "Conocer tradiciones",
+   "Participar en talleres",
+   "Conocer cultura local",
+   "Hacer senderismo"
+  ],
+  "duracion": "Día completo",
+  "acceso": "Solo con cita previa",
+  "horario": null,
+  "whatsapp": "3138369543",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/search/?api=1&query=Caminos%20Andinos%2C%20Ventaquemada%2C%20Boyac%C3%A1",
+  "ubicacion": {
+   "lat": 5.3724,
+   "lon": -73.5213,
+   "aproximada": true
+  }
+ },
+ {
+  "id": 20,
+  "nombre": "Refugio de La Calderona",
+  "municipio": "Ciénega",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Dormir",
+   "Senderos"
+  ],
+  "descripcion": "Alojamiento rural con caminatas ecoturísticas guiadas y experiencias espirituales en la laguna.",
+  "queHacer": [
+   "Hospedarse",
+   "Hacer senderismo",
+   "Conocer naturaleza"
+  ],
+  "duracion": "Más de un día",
+  "acceso": "Requiere orientación para llegar",
+  "horario": null,
+  "whatsapp": "3214596403",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=100081189438895"
+  },
+  "reservasUrl": "https://www.airbnb.com/rooms/52535349",
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.400092,-73.269104",
+  "ubicacion": {
+   "lat": 5.400092,
+   "lon": -73.269104,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 21,
+  "nombre": "ASORFEM - Asociación Orgánica Rural Femenina",
+  "municipio": "Ciénega",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Senderos",
+   "Cultura",
+   "Productos locales"
+  ],
+  "descripcion": "Asociación de mujeres campesinas que produce abono orgánico. Ofrece talleres y venta de productos.",
+  "queHacer": [
+   "Conocer naturaleza",
+   "Participar en talleres",
+   "Comprar productos locales"
+  ],
+  "duracion": "1–2 horas",
+  "acceso": "Requiere orientación para llegar",
+  "horario": null,
+  "whatsapp": "3114771613",
+  "redes": {
+   "instagram": "https://www.instagram.com/asorfem2023/",
+   "tiktok": "https://www.tiktok.com/@asorfem"
+  },
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.396552,-73.286701",
+  "ubicacion": {
+   "lat": 5.396552,
+   "lon": -73.286701,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 22,
+  "nombre": "Ruta Entre Alas y Flores",
+  "municipio": "Nuevo Colón",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Agroturismo",
+   "Senderos",
+   "Cultura",
+   "Productos locales"
+  ],
+  "descripcion": "Recorridos a pie y en bicicleta por fincas frutícolas, talleres sobre polinizadores y demostraciones de cosecha, poda e injerto. Tiene dulces y mermeladas de fruta y alojamiento rural.",
+  "queHacer": [
+   "Conocer procesos campesinos",
+   "Hacer senderismo",
+   "Conocer naturaleza",
+   "Conocer cultura local",
+   "Comprar productos locales",
+   "Participar en talleres",
+   "Conocer tradiciones"
+  ],
+  "duracion": "Más de un día",
+  "acceso": "Requiere orientación para llegar",
+  "horario": null,
+  "whatsapp": "3185524956",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/search/?api=1&query=Ruta%20Entre%20Alas%20y%20Flores%2C%20Nuevo%20Col%C3%B3n%2C%20Boyac%C3%A1",
+  "ubicacion": {
+   "lat": 5.3493,
+   "lon": -73.4627,
+   "aproximada": true
+  }
+ },
+ {
+  "id": 25,
+  "nombre": "Turismo de Bienestar",
+  "municipio": "Villa de Leyva",
+  "vereda": null,
+  "provinciaMarquez": false,
+  "categorias": [
+   "Cultura"
+  ],
+  "descripcion": "Talleres de bordado, mostacilla y pintura.",
+  "queHacer": [
+   "Participar en talleres"
+  ],
+  "duracion": "2–4 horas",
+  "acceso": "Solo con cita previa",
+  "horario": null,
+  "whatsapp": "3132803981",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/search/?api=1&query=Turismo%20de%20Bienestar%2C%20Villa%20de%20Leyva%2C%20Boyac%C3%A1",
+  "ubicacion": {
+   "lat": 5.6291,
+   "lon": -73.5244,
+   "aproximada": true
+  }
+ },
+ {
+  "id": 26,
+  "nombre": "Alsf Alimentos Liofilizados",
+  "municipio": "Nuevo Colón",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Comer",
+   "Agroturismo"
+  ],
+  "descripcion": "Fruta liofilizada producida en Nuevo Colón. Hace parte de la Ruta Entre Alas y Flores.",
+  "queHacer": [
+   "Comer",
+   "Conocer procesos campesinos"
+  ],
+  "duracion": "1–2 horas",
+  "acceso": "Abierto a visitantes",
+  "horario": null,
+  "whatsapp": "3206681335",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.363773,-73.437396",
+  "ubicacion": {
+   "lat": 5.363773,
+   "lon": -73.437396,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 27,
+  "nombre": "La Acuarela",
+  "municipio": "Tibaná",
+  "vereda": "Siramá",
+  "provinciaMarquez": true,
+  "categorias": [
+   "Comer",
+   "Senderos",
+   "Cultura"
+  ],
+  "descripcion": "Restaurante bajo reserva con postres, snacks y café.",
+  "queHacer": [
+   "Comer",
+   "Conocer tradiciones",
+   "Conocer naturaleza"
+  ],
+  "duracion": "2–4 horas",
+  "acceso": "Requiere orientación para llegar",
+  "horario": null,
+  "whatsapp": "3104481690",
+  "redes": {
+   "instagram": "https://www.instagram.com/laacuarela2003"
+  },
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/dir/?api=1&destination=5.325694,-73.396861",
+  "ubicacion": {
+   "lat": 5.325694,
+   "lon": -73.396861,
+   "aproximada": false
+  }
+ },
+ {
+  "id": 28,
+  "nombre": "Sendero Interpretativo Entre Alas y Flores",
+  "municipio": "Nuevo Colón",
+  "vereda": "Llano Grande",
+  "provinciaMarquez": true,
+  "categorias": [
+   "Senderos"
+  ],
+  "descripcion": "Caminatas por la naturaleza en la vereda Llano Grande. Hace parte de la Ruta Entre Alas y Flores.",
+  "queHacer": [
+   "Conocer naturaleza"
+  ],
+  "duracion": "1–2 horas",
+  "acceso": "Requiere orientación para llegar",
+  "horario": null,
+  "whatsapp": "3165695711",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/search/?api=1&query=Sendero%20Interpretativo%20Entre%20Alas%20y%20Flores%2C%20vereda%20Llano%20Grande%2C%20Nuevo%20Col%C3%B3n%2C%20Boyac%C3%A1",
+  "ubicacion": {
+   "lat": 5.3517,
+   "lon": -73.4507,
+   "aproximada": true
+  }
+ },
+ {
+  "id": 29,
+  "nombre": "Del Fogón",
+  "municipio": "Ramiriquí",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Comer",
+   "Agroturismo",
+   "Cultura",
+   "Productos locales"
+  ],
+  "descripcion": "Cocina tradicional boyacense y talleres de amasijos, bebidas fermentadas y platos típicos.",
+  "queHacer": [
+   "Comer",
+   "Conocer procesos campesinos",
+   "Conocer cultura local",
+   "Comprar productos locales",
+   "Participar en talleres",
+   "Conocer tradiciones"
+  ],
+  "duracion": "Medio día",
+  "acceso": "Abierto a visitantes",
+  "horario": null,
+  "whatsapp": "3132204849",
+  "redes": {
+   "instagram": "https://www.instagram.com/cocinacampesinadelfogon"
+  },
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/search/?api=1&query=Del%20Fog%C3%B3n%2C%20Ramiriqu%C3%AD%2C%20Boyac%C3%A1",
+  "ubicacion": {
+   "lat": 5.4023,
+   "lon": -73.3316,
+   "aproximada": true
+  }
+ },
+ {
+  "id": 30,
+  "nombre": "Reserva Natural El Unjo",
+  "municipio": "Jenesano",
+  "vereda": null,
+  "provinciaMarquez": true,
+  "categorias": [
+   "Senderos",
+   "Agroturismo",
+   "Cultura"
+  ],
+  "descripcion": "Reserva natural con ecoturismo, agroturismo y experiencias comunitarias.",
+  "queHacer": [
+   "Conocer naturaleza",
+   "Conocer procesos campesinos",
+   "Conocer cultura local"
+  ],
+  "duracion": null,
+  "acceso": null,
+  "horario": null,
+  "whatsapp": "3214193566",
+  "redes": {},
+  "reservasUrl": null,
+  "comoLlegarUrl": "https://www.google.com/maps/search/?api=1&query=Reserva%20Natural%20El%20Unjo%2C%20Jenesano%2C%20Boyac%C3%A1",
+  "ubicacion": {
+   "lat": 5.3916,
+   "lon": -73.3624,
+   "aproximada": true
+  }
+ }
+]

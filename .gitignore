@@ -1,0 +1,9 @@
+# Datos personales y códigos de los sellos: NUNCA subir a GitHub (Ley 1581 de 2012)
+datos/privado/
+
+node_modules/
+frontend/dist/
+__pycache__/
+.venv/
+.env
+qr-municipios.pdf

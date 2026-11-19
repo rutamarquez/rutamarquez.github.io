@@ -1,0 +1,107 @@
+{
+ "totalEmprendimientos": 28,
+ "totalMunicipios": 9,
+ "indicadores": [
+  {
+   "titulo": "Google Maps",
+   "descripcion": "no aparecen en Google Maps o no saben si aparecen",
+   "sin": 14,
+   "con": 14,
+   "porcentajeSin": 50,
+   "detalle": {
+    "Sí": 14,
+    "No sabe": 2,
+    "No": 12
+   }
+  },
+  {
+   "titulo": "Reservas en línea",
+   "descripcion": "no tienen un sistema de reservas o compras en línea",
+   "sin": 25,
+   "con": 3,
+   "porcentajeSin": 89,
+   "detalle": {
+    "No": 22,
+    "En proceso": 3,
+    "Sí": 3
+   }
+  },
+  {
+   "titulo": "Redes sociales",
+   "descripcion": "no tienen presencia en redes sociales",
+   "sin": 12,
+   "con": 16,
+   "porcentajeSin": 43,
+   "detalle": {
+    "Sí": 16,
+    "No": 11,
+    "En proceso": 1
+   }
+  }
+ ],
+ "porMunicipio": [
+  {
+   "municipio": "Nuevo Colón",
+   "total": 8
+  },
+  {
+   "municipio": "Tibaná",
+   "total": 6
+  },
+  {
+   "municipio": "Ramiriquí",
+   "total": 4
+  },
+  {
+   "municipio": "Jenesano",
+   "total": 3
+  },
+  {
+   "municipio": "Úmbita",
+   "total": 2
+  },
+  {
+   "municipio": "Ciénega",
+   "total": 2
+  },
+  {
+   "municipio": "San Eduardo",
+   "total": 1
+  },
+  {
+   "municipio": "Ventaquemada",
+   "total": 1
+  },
+  {
+   "municipio": "Villa de Leyva",
+   "total": 1
+  }
+ ],
+ "pruebas": {
+  "disponible": false,
+  "fecha": null,
+  "tareas_guiadas": {
+   "participantes": null,
+   "tareas": [
+    {
+     "tarea": "Encontrar un hospedaje de la ruta",
+     "completaron": null
+    },
+    {
+     "tarea": "Abrir la ruta hacia un restaurante",
+     "completaron": null
+    },
+    {
+     "tarea": "Interpretar la vista de resultados",
+     "completaron": null
+    }
+   ]
+  },
+  "encuesta_emprendedores": {
+   "participantes": null,
+   "informacion_clara_pct": null,
+   "util_para_atraer_visitantes_pct": null
+  }
+ },
+ "actualizado": "2026-11-18"
+}
