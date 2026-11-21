@@ -87,9 +87,9 @@ def main() -> int:
     c = canvas.Canvas(str(destino), pagesize=A5)
     c.setTitle("Ruta Márquez · Códigos QR por municipio")
     for municipio, n in sorted(conteo.items()):
-        texto = f"{n} emprendimiento{'s' if n != 1 else ''} en {municipio}"
+        texto = f"Emprendimientos rurales de {municipio} para comer, dormir y vivir el campo"
         pagina(c, f"{base}?municipio={clave(municipio)}", municipio, texto)
-    pagina(c, base, "Márquez", f"{len(filas)} emprendimientos rurales para comer, dormir y vivir el campo")
+    pagina(c, base, "Márquez", "Emprendimientos rurales para comer, dormir y vivir el campo")
     c.save()
     print(f"Listo: {destino.name} con {len(conteo) + 1} páginas.")
     return 0
