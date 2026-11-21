@@ -65,7 +65,7 @@ export default function Ruta({ datos }) {
         <a className="boton boton--secundario boton--ancho" href={urlArchivo(`itinerario-${ruta.id}.pdf`)} download>
           <Icono nombre="descargar" tamano={18} /> Descargar itinerario en PDF
         </a>
-        <p className="nota nota--centrada">Guárdalo antes de salir: en algunas veredas no hay señal.</p>
+        <p className="nota nota--centrada">Descarga el itinerario y tenlo siempre a la mano, incluso donde no haya señal.</p>
       </main>
     </>
   )

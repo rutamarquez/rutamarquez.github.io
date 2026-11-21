@@ -7,7 +7,7 @@ import { usePasaporte } from '../hooks/usePasaporte'
 import { CATEGORIAS } from '../services/datos'
 
 export default function Inicio({ datos, municipioQR }) {
-  const { emprendimientos, rutas, paradaDe, diagnostico } = datos
+  const { emprendimientos, rutas, paradaDe } = datos
   const ruta = rutas[0]
   const { hechos, total, faltan } = usePasaporte(ruta)
   const [texto, setTexto] = useState('')
@@ -98,18 +98,6 @@ export default function Inicio({ datos, municipioQR }) {
             )}
           </section>
         )}
-
-        <a className="tarjeta-resultados" href="#/resultados">
-          <Icono nombre="grafico" tamano={22} />
-          <div>
-            <h2>¿Por qué esta ruta?</h2>
-            <p>
-              {diagnostico.indicadores[0].porcentajeSin} % de los emprendimientos encuestados no aparece en
-              Google Maps. Mira el diagnóstico.
-            </p>
-          </div>
-          <Icono nombre="derecha" tamano={18} />
-        </a>
       </main>
     </>
   )
